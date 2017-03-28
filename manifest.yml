@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Demo Telecoms Chatbot
+  host: Demo-Telecoms-Chatbot
+  disk_quota: 1024M
+  services:
+  - Demo Telecoms Chatbot-cloudantNoSQLDB
+  - Language Translator-mx
+  - Conversation-wt
